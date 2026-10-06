@@ -1,0 +1,12 @@
+* text=auto
+*.py text eol=lf
+*.yml text eol=lf
+*.md text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.txt text eol=lf
+*.md whitespace=-blank-at-eol
+src/assets/vendor/* -text -whitespace
+src/assets/fonts/OFL.txt whitespace=-blank-at-eol
+*.webp binary
+*.ttf binary
